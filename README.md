@@ -1,5 +1,5 @@
 ## Flasho
-## Lab 2
+## Lab 3
 
 ### App Description
 `TODO://` The App lets you create a new flashcard, saves it in the database navigate through multiple flashcards and delete created flashcards
