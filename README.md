@@ -2,16 +2,15 @@
 ## Lab 2
 
 ### App Description
-`TODO://` The App lets you create a new flashcard and displays it on the MainActivity
+`TODO://` The App lets you create a new flashcard, saves it in the database navigate through multiple flashcards and delete created flashcards
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/0rnmFiU3dl.gif" width=200><br>
+<img src="http://g.recordit.co/ae176jg5gB.gif" width=200><br>
 
 ## Required
-- [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
-- [x] The 'Add Card Screen' has a cancel button to take the user back to the main screen
-- [x] User can enter and submit a Question and Answer through the 'Add Card Screen'
-- [x] User will see the card they just created on the main screen when they press the 'Save Button'
-- [x] Push your progress to GitHub!
+- [x] User can create a card and still see their created card when the app is relaunched.
+- [x] User can create muliple cards and browse through all created cards
 
+## Optional
+- [x] User can delete a card and no longer see it in their deck anymore
