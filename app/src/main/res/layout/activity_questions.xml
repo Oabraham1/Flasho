@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions">
+
+    <EditText
+        android:id="@+id/flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Add Questions here"
+        android:inputType="textMultiLine" />
+
+
+    <EditText
+        android:id="@+id/flashcard_answer"
+        android:layout_width="386dp"
+        android:layout_height="138dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="150dp"
+        android:hint="Type Answer here"
+        android:inputType="textMultiLine" />
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="115dp"
+        android:layout_height="112dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_iconmonstr_x_mark_7" />
+
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="115dp"
+        android:layout_height="112dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/ic_iconmonstr_save_7" />
+
+
+</RelativeLayout>
