@@ -6,7 +6,7 @@
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/ae176jg5gB.gif" width=200><br>
+<img src="http://g.recordit.co/E8b1ypdOJQ.gif" width=200><br>
 
 ## Required
 - [x] User sees a transition animation when going from the main screen to the add card screen.
