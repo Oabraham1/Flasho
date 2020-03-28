@@ -25,6 +25,7 @@ public class Questions extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
+                overridePendingTransition(R.anim.left_in_animation, R.anim.right_out_animation);
             }
         });
 
@@ -38,6 +39,7 @@ public class Questions extends AppCompatActivity {
                 data.putExtra("answer", flashcard_answer.getText().toString());
                 setResult(RESULT_OK, data);
                 finish();
+                overridePendingTransition(R.anim.left_in_animation, R.anim.right_out_animation);
 
 
             }
